@@ -1,0 +1,201 @@
+
+
+/* Estilo del encabezado */
+header {
+	background-color: #ffffff;
+	color: #000000;
+	padding: 4px;
+    text-align: center;
+    display:block;
+    block-size: auto;
+    
+}
+
+header h1 {
+	margin: 0;
+	font-size: 30px;
+    text-align: center;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    margin-top: 15px;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 80px;
+}
+
+nav li:last-child {
+	margin-right: 90;
+}
+/* Estilo para cambiar el color de la letra y al presionar cambie a color naranjo */
+li {
+	color: #000000;
+	text-decoration: none;
+	font-size: 20px;
+}
+/* color naranjo cuando el mause se posiciona sobre el texto */
+li:hover {
+	color: #ffc525;
+}
+
+/* diseños de los titulos */
+
+h4{
+    margin-left: 95px;
+    font-weight: bold;
+}
+
+/* Estilo de página */
+
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto",sans-serif;
+    
+}
+
+/* Estilo del contenido  y contenedores de la tienda */
+
+.contenido{
+    max-width:  1500px;
+    width: 100px;
+    margin: 100px ;
+    display: flex;
+
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    background-color:#aaa7a7 ;
+}
+
+
+.contenedor3{
+    width: 1502px;
+    height: 200px;
+    display: flex;
+    margin-right: 100px;
+    background-color: #aaa7a7;
+
+}
+.contenedor4{
+
+    width: 1502px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 200px 10px;
+
+   
+}
+.contenedor5{
+
+    width: 1004px;
+    height: 280px;
+    display: flex;
+    justify-content:center;
+    margin-left: 250px;
+    background-color: #aaa7a7;
+    
+}
+.elemento{
+    padding: 0px 0px 0px 0px;
+    margin: 2px 2px 2px 2px;
+    border: 0px;
+    float: left;
+    width: 260px;
+
+}
+
+.bloque1{
+    background-color: #f5f0fd;
+    
+}
+
+.elemento2{
+    background-color:#4054b2;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    color: #ffffff;
+    
+
+    
+}
+.caja1{
+    background-color: #4054b2;
+    width: 451px;
+    height: 350px;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+}
+
+.caja2{
+    background-color: #4054b2;
+    width: 512px;
+    height: 350px;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+}
+
+.caja3{
+    background-color: #4054b2;
+    width: 499px;
+    height: 350px;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+}
+.direccion{
+    color: #ffffff;
+    margin-right: 4px;
+}
+.mapa{
+    margin-left: 45px;
+}
+
+div li{
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 150px;
+    
+}
+
+.piepagina{
+    background-color: #4054b2;
+    text-align: center;
+    color: #ffffff;
+    font-size: larger;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.redes{
+    border-radius: 7px;
+    display:block;
+    block-size: auto;
+    
+}
+
+
+.facebook{
+    margin-left: 20px;
+    border-radius: 7px;
+}
+.instagram{
+    margin-left: 20px;
+    border-radius: 7px;
+}
+.elemento2 h2{
+    font-weight: bold;
+}
